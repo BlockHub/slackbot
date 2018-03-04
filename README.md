@@ -35,7 +35,6 @@ class MyBot(Bot)
   class on_cycle_check_agenda:
       def __init__(self):
           self.frequency = 30000
-          self.allowed_commands = ['date', 'something']
       
       def __cal__(self, args)
       # this is what actually gets executed
